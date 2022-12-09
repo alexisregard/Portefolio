@@ -66,6 +66,12 @@ li{
     position: fixed;
 }
 
+.menu2{
+    position: fixed;
+    opacity: 30%;
+
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -77,6 +83,16 @@ html{
     padding-left: 6px;
     margin-top: 100px;
 }
+
+.main2{
+    border-left: 3px solid #000046;
+    border-right: 3px solid #000046;
+    padding-left: 6px;
+    margin-top: 100px;
+    margin-right: 320px;
+    margin-left: 320px;
+}
+
 a{
     font-family: 'Lora', serif;
     font-size: 20px;
@@ -99,6 +115,17 @@ a:active{
     size: A4;
     text-align: center;
     border: #000046 2px solid;
+}
+
+.cv{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 55px;
+    size: A4;
+    text-align: center;
+    border: #000046 2px solid;
+    width: 680px;
 }
 
 .illustration{
@@ -198,8 +225,5 @@ footer{
     flex: auto;
 }
 
-.fa-solid fa-house:hover {
-    opacity: 75%;
-}
 
 
